@@ -1,0 +1,90 @@
+.nrocot
+{
+	font-family: 'Lucida Sans',Arial;
+	font-size: 12px;
+	margin: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 8px;
+}
+.fec2
+{
+	font-family: 'Lucida Sans',Arial;
+	font-size: 12px;
+	margin: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 8px;
+}
+#radios{
+	text-align: center;
+}
+#dgen
+{
+	background-color: #FBFBEF;
+	border-radius: 10px;
+	border-style: hidden outset outset hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	width: 600px;
+}
+#cont
+{
+	background-color: #FFFFCA;
+	border-radius: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	width: 850px;
+	transition: width 1s ease-out;	/*w3*/
+	-moz-transition: width 1s ease-out; /* Firefox 4 */
+	-webkit-transition: width 1s ease-out; /* Safari and Chrome */
+	-o-transition: width 1s ease-out; /* Opera */
+}
+#cont:hover{
+	background-color: #FFFF83;
+	width: 950px;
+	transition: all 1s ease-in;	/*w3*/
+	-moz-transition: all 1s ease-in; /* Firefox 4 */
+	-webkit-transition: all 1s ease-in; /* Safari and Chrome */
+	-o-transition: all 1s ease-in; /* Opera */
+}
+section
+{
+	background: #fefcea; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fefcea 0%, #f1da36 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefcea), color-stop(100%,#f1da36)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fefcea 0%,#f1da36 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fefcea 0%,#f1da36 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fefcea 0%,#f1da36 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fefcea 0%,#f1da36 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
+	height: 100%;
+	margin: 0 auto;
+	position: fixed;
+	width: 100%;
+}
+table
+{
+	*border-collapse: collapse;
+    border-spacing: 0;
+    border:solid #000 1px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px #08298A;
+    font-family: 'Lucida Sans' ,Arial;
+	margin-left: auto;
+	margin-right: auto;
+}
+table thead
+{
+	background-color: #084B8A;
+	color: silver;
+}
+table thead th {padding: 5px;}
+table tbody
+{
+	background-color: #EFF8FB;
+}
+table tbody td {font-size: 12px; padding-left: 8px; padding-right: 8px;}
+table tbody tr:hover {background-color: #FFF; color: #B00}
